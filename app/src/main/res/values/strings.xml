@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">Don't Forget Shop</string>
+    <string name="app_name">Don\'t Forget Shop</string>
 
     <!-- shared -->
     <string name="price">£%1$.2f</string>
 
     <!-- top bar titles -->
-    <string name="top_bar_home_title">Home/App Title</string>
-    <string name="top_bar_cart_title">Cart</string>
+    <string name="top_bar_home_title">Don\'t Forget Shop</string>
+    <string name="top_bar_cart_title">Your Cart</string>
     <string name="top_bar_checkout_title">Checkout</string>
-    <string name="top_bar_orders_title">Orders</string>
+    <string name="top_bar_orders_title">My Orders</string>
     <string name="top_bar_settings_title">Settings</string>
-    <string name="top_bar_product_details_title">Details</string>
+    <string name="top_bar_product_details_title">Product Details</string>
 
     <!-- bottom bar navigation item titles -->
     <string name="bottom_bar_nav_item_home_title">Home</string>
@@ -18,58 +18,84 @@
     <string name="bottom_bar_nav_item_orders_title">Orders</string>
     <string name="bottom_bar_nav_item_settings_title">Settings</string>
 
+    <!-- product categories -->
+    <string name="category_kitchen_appliances">Kitchen Appliances</string>
+    <string name="category_smart_home">Smart Home</string>
+    <string name="category_home_decor">Home Decor</string>
+    <string name="category_cleaning">Cleaning</string>
+    <string name="category_bathroom">Bathroom</string>
+    <string name="category_lighting">Lighting</string>
+
     <!-- onboarding screen -->
-    <string name="page_1_title">Strategic Planning</string>
-    <string name="page_2_title">Operational Excellence</string>
-    <string name="page_3_title">Change Management</string>
-    <string name="page_1_description">Comprehensive strategic analysis and planning that aligns your business objectives with market opportunities and organizational capabilities.</string>
-    <string name="page_2_description">Process optimization and operational improvement strategies that enhance efficiency, reduce costs, and drive sustainable performance.</string>
-    <string name="page_3_description">Expert guidance through organizational transformation</string>
+    <string name="page_1_title">Welcome to Don\'t Forget Shop</string>
+    <string name="page_2_title">Quality You Can Trust</string>
+    <string name="page_3_title">Shop Smart, Live Better</string>
+    <string name="page_1_description">Your one-stop destination for premium home goods and household appliances. Everything your home needs, all in one place.</string>
+    <string name="page_2_description">Curated selection of top-rated products from trusted brands. Every item is hand-picked for quality, durability, and design.</string>
+    <string name="page_3_description">Easy ordering with 24-hour in-store pickup. Shop from the comfort of home and collect your order the very next day.</string>
     <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
+    <string name="start_button_title">Get Started</string>
     <string name="skip_button_title">Skip</string>
 
-    <!-- home/products screen   -->
+    <!-- home screen -->
+    <string name="home_section_featured">Featured Products</string>
+    <string name="home_section_categories">Shop by Category</string>
+    <string name="home_section_articles">Home Tips &amp; Ideas</string>
+    <string name="home_add_to_cart">Add to Cart</string>
+
+    <!-- home/products screen -->
     <string name="products_state_empty_primary_text">No products available</string>
 
-    <!-- product details screen   -->
+    <!-- product details screen -->
     <string name="product_details_state_empty_primary_text">No information available for this product</string>
     <string name="product_image_description">Product image</string>
     <string name="button_add_to_cart_label">Add to Cart</string>
+    <string name="product_details_category_label">Category</string>
 
     <!-- cart screen -->
-    <string name="cart_state_empty_primary_text">Nothing in your cart yet</string>
+    <string name="cart_state_empty_primary_text">Your cart is empty</string>
+    <string name="cart_empty_subtitle">Discover our premium home goods collection</string>
     <string name="button_place_order_label">Place Order • £%1$.2f</string>
     <string name="increase_quantity_icon_description">Increase quantity</string>
     <string name="decrease_quantity_icon_description">Decrease quantity</string>
     <string name="delete_item_icon_description">Delete item</string>
+    <string name="cart_total_label">Order Total</string>
 
     <!-- orders screen -->
-    <string name="orders_state_empty_primary_text">You have no orders yet</string>
+    <string name="orders_state_empty_primary_text">No orders yet</string>
+    <string name="orders_empty_subtitle">Your completed orders will appear here</string>
     <string name="order_number">Order #%1$s</string>
     <string name="order_customer">Customer: %1$s %2$s</string>
+    <string name="order_total_label">Total: £%1$.2f</string>
+    <string name="order_status_processing">Processing — ready within 24 hours</string>
 
     <!-- checkout screen -->
     <string name="checkout_text_field_first_name">First Name</string>
     <string name="checkout_text_field_last_name">Last Name</string>
-    <string name="checkout_text_field_email">Email</string>
+    <string name="checkout_text_field_email">Email Address</string>
     <string name="button_confirm_order_label">Confirm Order</string>
+    <string name="checkout_title">Your Details</string>
+    <string name="checkout_subtitle">Enter your details to confirm your 24-hour pickup order</string>
+    <string name="checkout_email_error">Please enter a valid email address</string>
+    <string name="checkout_pickup_info">Your order will be ready for in-store pickup within 24 hours.</string>
 
     <!-- checkout dialog -->
-    <string name="checkout_dialog_title">Order Confirmed</string>
+    <string name="checkout_dialog_title">Order Confirmed!</string>
     <string name="checkout_dialog_order_number">Order number: #%1$s</string>
-    <string name="checkout_dialog_processing_message">Your order will be processed within 24 hours.</string>
+    <string name="checkout_dialog_processing_message">Your order will be ready for collection within 24 hours. A confirmation will be sent to your email.</string>
 
     <!-- settings screen -->
     <string name="settings_screen_company_label">Company</string>
-    <string name="settings_screen_version_label">Version</string>
+    <string name="settings_screen_version_label">App Version</string>
     <string name="settings_screen_customer_support_label">Customer Support</string>
-    <string name="company_name">Company Name</string>
+    <string name="settings_screen_about_label">About</string>
+    <string name="company_name">PLEASE DO NOT FORGET LTD</string>
     <string name="app_version">1.0.0</string>
-    <string name="customer_support_link">https://website.org/</string>
+    <string name="customer_support_link">https://pleasedoonotforgett.info</string>
+    <string name="settings_open_website">Visit our website</string>
 
     <!-- clear cart dialog -->
-    <string name="clear_cart_dialog_title">Clear cart?</string>
+    <string name="clear_cart_dialog_title">Clear Cart?</string>
     <string name="clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
     <string name="button_confirm_clear_cart_title">Confirm</string>
     <string name="button_cancel_clear_cart_title">Cancel</string>
