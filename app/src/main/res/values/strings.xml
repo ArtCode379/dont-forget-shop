@@ -99,4 +99,10 @@
     <string name="clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
     <string name="button_confirm_clear_cart_title">Confirm</string>
     <string name="button_cancel_clear_cart_title">Cancel</string>
+    <string name="home_article_smart_home_title">Smart Home</string>
+    <string name="home_article_smart_home_desc">Upgrade your living space with the latest smart home devices and automation solutions.</string>
+    <string name="home_article_kitchen_title">Kitchen Essentials</string>
+    <string name="home_article_kitchen_desc">Discover our curated collection of premium kitchen tools and accessories for your home.</string>
+    <string name="home_article_lighting_title">Lighting Solutions</string>
+    <string name="home_article_lighting_desc">Transform your space with our elegant lighting collection, from table lamps to pendant lights.</string>
 </resources>
